@@ -5,7 +5,7 @@ This is a React application with Redux that allows you to find new friends that 
 Built following this [Tutorial](https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/ "tutorial")
 
 ## Demo
-coming soon
+Check out the Live app here [Demo](https://enaiman1.github.io/react-RoboFriends/ "Robo Friends app")
 
 ## Technologies Used
   [React](https://reactjs.org/ "React") | [Redux](https://redux.js.org/ "Redux") | [Tachyons](https://tachyons.io/ "Tachyons css Toolkit") |
