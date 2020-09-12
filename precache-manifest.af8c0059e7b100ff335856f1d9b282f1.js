@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e76f22692370acdd68e49f225f089d3e",
+    "revision": "443a94bf8ae8052af9f5d1687a360584",
     "url": "/react-RoboFriends/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-RoboFriends/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "b99398102fa84231df35",
-    "url": "/react-RoboFriends/static/css/main.fb350fc0.chunk.css"
+    "revision": "f62e2d774e6c5ef33f59",
+    "url": "/react-RoboFriends/static/css/main.5d118dc1.chunk.css"
   },
   {
     "revision": "6684574dffc22b64bed6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-RoboFriends/static/js/2.94842557.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b99398102fa84231df35",
-    "url": "/react-RoboFriends/static/js/main.4874968c.chunk.js"
+    "revision": "f62e2d774e6c5ef33f59",
+    "url": "/react-RoboFriends/static/js/main.39ce5451.chunk.js"
   },
   {
     "revision": "3ed63b600249ebccd2ff",
