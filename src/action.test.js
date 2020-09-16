@@ -1,31 +1,27 @@
-import * as actions from './actions';
-import {
-    CHANGE_SEARCH_FIELD,
-    REQUEST_ROBOTS_PENDING,
-  } from "./constants";
-
-  import configureMockStore from 'redux-mock-store'
-  import thunkMiddleware from 'redux-thunk'
-  
-
- const mockStore = configureMockStore([thunkMiddleware])
+import * as actions from './actions'
+import * as types from './constants'
+import configureMockStore from 'redux-mock-store'
+import thunkMiddleware from 'redux-thunk'
 
 
-it('should create an action to search robots', () => {
-    const text = 'wooo';
+export const mockStore = configureMockStore([thunkMiddleware]);
+
+describe('actions', () => {
+  it('should create an action to search', () => {
+    const text = 'Finish docs'
     const expectedAction = {
-        type: CHANGE_SEARCH_FIELD,
-        payload: text
+      type: types.CHANGE_SEARCH_FIELD,
+      payload: text
     }
-    expectedAction(actions.setSearchField(text)).toEqual(expectedAction)
+    expect(actions.setSearchField(text)).toEqual(expectedAction)
+  })
 })
 
-it('handles requesting robots API', () => {
-    const store = mockStore()
+describe("Fetch robots action PENDING", () => {
+  it("should creat a Pending action on request Robots", () => {
+    const store = mockStore();
     store.dispatch(actions.requestRobots())
     const action = store.getActions();
-    const expectedAction = {
-        type: REQUEST_ROBOTS_PENDING,
-    }
-    expect(action[0]).toEqual(expectedAction)
-})
+    expect(action[0]).toEqual({type: "REQUEST_ROBOTS_PENDING"});
+  });
+});
